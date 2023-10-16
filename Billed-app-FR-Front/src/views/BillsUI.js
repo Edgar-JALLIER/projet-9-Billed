@@ -28,7 +28,7 @@ const rows = (data) => {
   }
 
   data.sort((a, b) => {
-    // Convertissez les dates en objets Date
+    // Convertir les dates en objets Date
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
     // Triez en ordre décroissant
